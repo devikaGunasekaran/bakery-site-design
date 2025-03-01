@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frosted Dreams - The Latest & Greatest</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Orbitron:wght@500&family=Poppins:wght@400;600&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: transparent;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 50px;
+            color: #b85c8a;
+            text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.5);
+            margin: 0;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px 15px;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #b85c8a;
+            transform: scale(1.1);
+        }
+
+        .cake-section {
+            position: relative;
+            width: 100%;
+            max-height: 500px;
+            overflow: hidden;
+        }
+
+        .cake-section img {
+            width: 100%;
+            display: block;
+        }
+
+        .cake-text {
+            position: absolute;
+            top: 20%;
+            left: 5%;
+            font-size: 40px;
+            font-family: 'Dancing Script', cursive;
+            color: white;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 40px auto;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-content {
+            flex: 2;
+            text-align: center;
+        }
+
+        .section-title {
+            color: #b85c8a;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .post {
+            display: flex;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+        }
+
+        .post:hover {
+            transform: scale(1.03);
+        }
+
+        .post img {
+            width: 180px;
+            height: 180px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .post-content {
+            flex: 1;
+        }
+
+        .post-content .date {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .post-content h3 {
+            font-size: 22px;
+            color: #222;
+            margin: 10px auto;
+        }
+
+        .read-more {
+            color: #b85c8a;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .read-more:hover {
+            color: #ff4081;
+        }
+
+        .about-section {
+            background-color: #f8e1ec;
+            padding: 50px;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .about-section:hover {
+            background-color: #0a1f44;
+            color: white;
+        }
+
+        .about-section h2 {
+            font-size: 28px;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+
+        .contact-section {
+            background-color: #e0e0e0;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        .contact-section h2 {
+            font-size: 24px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .contact-section p {
+            font-size: 18px;
+            color: #666;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">
+            <img src="images/logo1.webp" alt="Frosted Dreams Logo" class="logo">
+            <h1>Frosted Dreams</h1>
+        </div>
+        <div class="navbar">
+            <a href="#cakes">Cakes</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="cake-section">
+        <img src="images/cake.webp" alt="Delicious Cake">
+        <div class="cake-text">Tasty and Yummy Cakes!</div>
+    </div>
+
+    <div id="cakes" class="container">
+        <h2 class="section-title">THE DREAM CAKES</h2>
+
+        <div class="post">
+            <img src="images/cakes.jpeg" alt="Dream Cakes">
+            <div class="post-content">
+                <p class="date">FEBRUARY 09, 2025</p>
+                <h3>THE ULTIMATE DREAM CAKES</h3>
+                <p>A dream cake consists of a sponge cake base cooked to a tender and moist state with layers of fluffy frosting or cream.</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <img src="images/RED_VEL.jpeg" alt="Red Velvet Cake">
+            <div class="post-content">
+                <p class="date">JUNE 02, 2025</p>
+                <h3>RED DISTINCTIVE FLAVORS</h3>
+                <p>Red velvet cake is a layered cake with red color, white icing, and a subtle chocolate flavor. Perfect for special occasions!</p>
+            </div>
+        </div>
+        <div class="post">
+            <img src="images/butter.webp"  alt="Butterscotch Cake">
+            <div class="post-content">
+                <p class="date">MARCH 15, 2025</p>
+                <h3>BUTTERSCOTCH BLISS</h3>
+                <p>Butterscotch cake is a delightful fusion of rich caramel flavors, moist sponge, and a buttery, nutty essence. Topped with smooth butterscotch frosting, it's the perfect treat for dessert lovers.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Frosted Dreams, we believe in making every celebration special with our delicious, handcrafted cakes. Our journey started with a passion for baking and has grown into a brand loved by cake enthusiasts. Join us in indulging in the sweetest dreams!</p>
+    </div>
+
+    <div id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>📞 Phone: +91 9080894796</p>
+        <p>📧 Email: frosteddreams@gmail.com</p>
+    </div>
+
+</body>
+</html>
