@@ -34,6 +34,8 @@ This project was built as part of a web design competition where we proudly secu
 ## 📸 Sneak Peek  
 <img width="1920" height="944" alt="Screenshot 2025-10-18 065515" src="https://github.com/user-attachments/assets/1c8965ac-2989-4c49-a054-e557e6db2e1e" />
 
+
+
 <img width="1920" height="946" alt="Screenshot 2025-10-18 071206" src="https://github.com/user-attachments/assets/6f6b53a5-e8a8-4a3b-a16d-3fb6d49a3a85" />
 
 
